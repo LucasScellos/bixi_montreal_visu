@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bixi-montreal-visu"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Scellos <luscellos@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bixi_montreal_visu"}]
+
+[tool.poetry.dependencies]
+python = "3.9.9"
+pandas = "^1.5.2"
+streamlit = "^1.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
